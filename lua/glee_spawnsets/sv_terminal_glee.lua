@@ -1,13 +1,13 @@
 local set = {
     name = "terminal_glee", -- unique name
     prettyName = "Terminus",
-    description = "Don't look away.",
+    description = "THE scariest hunter, ever, no contest.",
     maxSpawnCount = 10, -- hard cap on count , this one checks :Health
     startingSpawnCount = 1,
     chanceToBeVotable = 0.25,
-    chanceToBeVotableIfHard = 3,
+    chanceToBeVotableIfHard = 1,
 
-    roundStartSound = "common/null.wav",
+    roundEndSound = "common/null.wav",
 
     -- FAR AWAY FROM THE PLAYER
     maxSpawnDist = 10000,

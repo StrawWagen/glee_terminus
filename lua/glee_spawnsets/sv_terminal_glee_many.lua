@@ -1,12 +1,12 @@
 local set = {
     name = "terminal_glee_many", -- unique name
     prettyName = "Termini",
-    description = "There's more than one of it.",
+    description = "Terrifying numbers of the most HORRIFYING creature a soul can know.",
     maxSpawnCount = 20, -- hard cap on count , this one checks :Health
     chanceToBeVotable = 0.15,
-    chanceToBeVotableIfHard = 1.5,
+    chanceToBeVotableIfHard = 0.5,
 
-    roundStartSound = "common/null.wav",
+    roundEndSound = "common/null.wav",
 
     -- FAR AWAY FROM THE PLAYER
     maxSpawnDist = 10000,
