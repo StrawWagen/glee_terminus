@@ -5,7 +5,7 @@ local set = {
     maxSpawnCount = 10, -- hard cap on count , this one checks :Health
     startingSpawnCount = 1,
     chanceToBeVotable = 0.25,
-    chanceToBeVotableIfHard = 1,
+    chanceToBeVotableWhenHard = 1,
 
     roundEndSound = "common/null.wav",
 

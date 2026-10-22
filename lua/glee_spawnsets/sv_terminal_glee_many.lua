@@ -4,7 +4,7 @@ local set = {
     description = "Terrifying numbers of the most HORRIFYING creature a soul can know.",
     maxSpawnCount = 20, -- hard cap on count , this one checks :Health
     chanceToBeVotable = 0.15,
-    chanceToBeVotableIfHard = 0.5,
+    chanceToBeVotableWhenHard = 0.5,
 
     roundEndSound = "common/null.wav",
 
